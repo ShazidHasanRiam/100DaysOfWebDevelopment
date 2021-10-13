@@ -9,10 +9,27 @@ body {
 
 h1 {
     font-family: Montserrat;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 3.5rem;
     line-height: 1.5;
     /* color: white; */
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    /* letter-spacing: -1px; */
+}
+
+h3{
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+p {
+    color: #8f8f8f;
 }
 
 .container-fluid {
@@ -52,4 +69,49 @@ h1 {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+}
+
+/* Features Section */
+#features{
+    padding: 7% 15%;
+}
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+    
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 13%;
+    margin: 20px 20px 50px;
 }
