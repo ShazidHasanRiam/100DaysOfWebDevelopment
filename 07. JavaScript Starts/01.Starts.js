@@ -52,3 +52,17 @@ var capitalizedName = uppercaseFirstChar = restOfName;
 //Use the capitalized version of the names to greet them using an alert
 alert("Hello " + capitalizedName + "!");
 //Hello, Riam!
+
+// Numbers
+var dogAge = prompt("How old is your dog?");
+var humanAge = ((dogAge - 2) * 4) + 21;
+alert("Your dog age is " + humanAge + " years old in human years.");
+
+//Increment & Decrement
+var incX = 7;
+incX++ ; //incX = 8
+incX+=2 ; //incX = 10
+
+var decX = 10;
+decX--; //decX = 9
+decX -=2; //decX = 7
